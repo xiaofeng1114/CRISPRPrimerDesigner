@@ -13,7 +13,7 @@ def get_header():
 			CRISPRPrimerDesigner
 --A script that designs PCR or RPA primers for CRISPR nucleic acid detection.
 Version v1.0.0
-Last Revised:2025/3/20
+Last Revised:2025/3/23
 ''')
 
 def Fasta_reverse(sequence):
@@ -201,7 +201,7 @@ def get_N227_seq(genome_file):
 				N427=DNA_string[new_start:new_end]
 				gc_count=N427.count('G')+N427.count('C')
 				gc_content=f'{gc_count/427:.2f}'
-				if 0.5<=float(gc_content)<=0.6:
+				if 0.4<=float(gc_content)<=0.6:
 					segments[seq_idd]=N427
 	return segments
 
