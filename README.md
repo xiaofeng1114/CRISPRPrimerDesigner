@@ -1,5 +1,5 @@
 # CRISPRPrimerDesigner
-描述：为病毒基因组设计用于CRISPR核酸检测的PCR或RPA引物  
+Description: PCR or RPA primers designed for CRISPR nucleic acid detection of viral genomes. 
 
 usage：  
 
