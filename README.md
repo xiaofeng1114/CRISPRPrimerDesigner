@@ -3,4 +3,8 @@
 
 usage：  
 
-python CRISPRPrimerDesigner.py -g <genome_file> [-a <choose amplify mode: PCR or RPA>] [-o <output file>]
+python CRISPRPrimerDesigner.py -g <genome_file> [-a <choose amplify mode: PCR or RPA>] [-o <output file>]  
+
+example：  
+
+python CRISPRPrimerDesigner.py -g example_genome.fa -a RPA -o output.txt
